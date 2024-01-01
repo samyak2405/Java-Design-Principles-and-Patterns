@@ -1,0 +1,9 @@
+
+0
+java:S1220""Move this file to a named package.
+L	java:S106"+Replace this use of System.out by a logger.(¦™Æåùÿÿÿÿ8˜½Í¯Ì1
+T
+java:S1172"2Remove this unused method parameter "newQuantity".(šÒ†öþÿÿÿÿ8¨¶Î¯Ì1
+G	java:S106"+Replace this use of System.out by a logger.(Ÿ¶Õ•8©¶Î¯Ì1
+G	java:S106
+"+Replace this use of System.out by a logger.(Ù’‹¼8óµÏ¯Ì1
