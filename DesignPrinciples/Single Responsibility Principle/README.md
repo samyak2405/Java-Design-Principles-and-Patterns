@@ -22,3 +22,6 @@ You don't need to sift through unrelated code to make changes.
 1. Product class: Focuses solely on representing product details. It doesn't handle inventory operations, keeping its responsibility clear and concise.
 2. InventoryManager class: Handles inventory operations, ensuring that the inventory is updated correctly. It doesn't get involved in product details, following the SRP.
 3. NotificationService class: Takes care of notifying about events like low stock. It doesn't deal with product details, stayin true to its single responsibility.
+
+Reference
+1. https://www.oodesign.com/single-responsibility-principle
