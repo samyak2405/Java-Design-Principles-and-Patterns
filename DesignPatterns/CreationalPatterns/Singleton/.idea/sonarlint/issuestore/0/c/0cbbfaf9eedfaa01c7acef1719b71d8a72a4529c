@@ -1,7 +1,0 @@
-
-0
-java:S1220""Move this file to a named package.
-q
-java:S2259"UA "NullPointerException" could be thrown; "secondSingletonInstance" is nullable here.(ίνΖ!8”βϋΐΝ1
-L	java:S106"+Replace this use of System.out by a logger.(•‡Λ‚ώÿÿÿÿ8¥τϊΐΝ1
-F	java:S106"+Replace this use of System.out by a logger.(ίνΖ!8§τϊΐΝ1

@@ -1,6 +1,0 @@
-
-7
-java:S1220""Move this file to a named package.8ó«±ÁÍ1
-y
-java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÔÅ˜¥ÿÿÿÿÿ8ø«±ÁÍ1
-L	java:S106'"+Replace this use of System.out by a logger.(¤ÊßÊşÿÿÿÿ8­¶ºÁÍ1
