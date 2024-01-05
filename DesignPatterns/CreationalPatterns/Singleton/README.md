@@ -391,4 +391,4 @@ SecondSingletonInstance hashcode: 531885035
 2. `java.awt.Desktop#getDesktop()`
 3. `java.lang.System#getSecurityManager()`
 
-## Singleton Implementation for [ConfigurationManagement]()
+## Singleton Implementation for [ConfigurationManagement](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Singleton/SingletonDesignPattern)
