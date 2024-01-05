@@ -8,7 +8,7 @@ Definition
 - Objective of these patterns is to separate the system from how its objects are created, composed and represented.
 
 Types Of Creational Design Patterns
-1. [Singleton]()
+1. [Singleton](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Singleton)
 2. [Factory Method]()
 3. [Abstract Factory Pattern]()
 4. [Builder]()
