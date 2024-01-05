@@ -1,0 +1,9 @@
+
+g	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(ÈÍÛûÿÿÿÿ8Ú†şÀÍ1
+7
+java:S1220""Move this file to a named package.8ìÛ‚ÀÍ1
+T
+java:S2589	"7Remove this expression which always evaluates to "true"(»ÁíË8Ş†şÀÍ1
+»
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(éœõÄùÿÿÿÿ8Ö•ÁÍ1
