@@ -30,7 +30,90 @@
     - Solution: Consider combining the Factory Pattern with other design patterns to address specific concerns in your application. 
 
 ### Example
+- Let's understand why we need Factory Design Pattern(FDP)
 
+Example without FDP
 ```java
 
+class Circle{
+   void draw(){
+      System.out.println("Drawing a circle");
+   }
+}
+
+class Square{
+   void draw(){
+      System.out.println("Drawing a square");
+   }
+}
+
+public class WithoutFactoryPattern {
+   public static void main(String[] args) {
+      Circle circle = new Circle();
+      circle.draw();
+      Square square = new Square();
+      square.draw();
+   }
+}
+
 ```
+- In above code, client code directly creates instances of concrete shapes using new operator
+- In future if we need more shapes, the client code must be modified, potentially in multiple places.
+- The client is tightly coupled to the specific shape classes.
+
+Example with FDP
+```java
+
+interface Shape{
+    void draw();
+}
+
+class Circle implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("Drawing circle");
+    }
+}
+
+class Square implements Shape{
+    @Override
+    public void draw() {
+        System.out.println("Drawing square");
+    }
+}
+
+class ShapeFactory{
+    public Shape createShape(String shapeType){
+        if("Circle".equalsIgnoreCase(shapeType)){
+            return new Circle();
+        }
+        else if("Square".equalsIgnoreCase(shapeType)){
+            return new Square();
+        }
+        return null;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        ShapeFactory shapeFactory = new ShapeFactory();
+        Shape circle = shapeFactory.createShape("Circle");
+        circle.draw();
+        Shape square = shapeFactory.createShape("Square");
+        square.draw();
+    }
+}
+```
+- In this example, Client code uses a ShapeFactory to create instances of shapes without knowing the concrete implementation details.
+- Adding a new shape involves only modifying the factory code, keeping  the client code unchanged.
+- Client is decoupled from the specific shape classes, promoting flexibility and easier maintenance.
+
+### Implementation
+
+#### 1. [Procedural Solution]()
+
+#### 2. [Class Registration using Reflection]()
+
+#### 3. [Class Registration without Reflection]()
+
+#### 4. [Factory Method with Abstractions]()
