@@ -10,6 +10,7 @@
 ## Design Patterns
 1. [Creational Design Patterns](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns): Simplifies the creation of object in Object oriented system.
     1. [Singleton](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Singleton)
+    2. [Factory](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Factory)
 
 
 
