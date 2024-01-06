@@ -110,10 +110,10 @@ public class Main {
 
 ### Implementation
 
-#### 1. [Procedural Solution]()
+#### 1. [Procedural Solution](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Factory/WithFactory)
 
-#### 2. [Class Registration using Reflection]()
+#### 2. [Class Registration using Reflection](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Factory/ClassRegWithReflection)
 
-#### 3. [Class Registration without Reflection]()
+#### 3. [Class Registration without Reflection](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Factory/ClassRegWithoutReflection)
 
 #### 4. [Factory Method with Abstractions]()
