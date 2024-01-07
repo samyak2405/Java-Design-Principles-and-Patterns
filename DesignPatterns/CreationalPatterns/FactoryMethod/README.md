@@ -26,16 +26,16 @@
 - In Factory Method Pattern, the creation of objects is delegated to subclasses by providing an interface(method) that subclasses implement.
 
 ## Example
-1. [Without Factory Method Pattern]()
+1. [Without Factory Method Pattern](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/FactoryMethod/WithoutFactoryMethodPattern)
 - The client code directly decides which type of `Vehicle` to instantiate(Car or Motorcycle)
 - If you need to change the type of vehicle or add more types you have to modify the client code, which lead to maintenance issues and violates the OCP.
 
-2. [With Factory Method Pattern]()
+2. [With Factory Method Pattern](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/FactoryMethod/WithFactoryMethodPattern)
 - Client code is decoupled from the specific types of vehicles.
 - It depends on the `VehicleFactory` interface instead of concrete classes.
 - Adding a new type of vehicle is easier. You can create a new class implementing `VehicleFactory` and the client code remains unchanged.
 - Factory method Pattern adheres to the OCP, allowing for extension without modification.
 
-3. [Notification Service]()
+3. [Notification Service](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/FactoryMethod/NotificationService)
 - Factory class `NotificationFactory` with a method `createNotification` which is responsible for creating instances of the interface based on a provided parameter.
 - Encapsulates the object creation logic within the factory class, allowing the client code to create objects without specifying their concrete classes explicitly.

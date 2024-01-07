@@ -9,11 +9,12 @@ Definition
 
 Types Of Creational Design Patterns
 1. [Singleton](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Singleton)
-2. [Factory Method]()
-3. [Abstract Factory Pattern]()
-4. [Builder]()
-5. [Prototype]()
-6. [Object Pool]()
+2. [Factory](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/Factory)
+3. [Factory Method](https://github.com/samyak2405/Java-Design-Principles-and-Patterns/tree/main/DesignPatterns/CreationalPatterns/FactoryMethod)
+4. [Abstract Factory Pattern]()
+5. [Builder]()
+6. [Prototype]()
+7. [Object Pool]()
 
 Advantages
 1. Flexibility: Provide more flexibility in deciding which objects need to be created for a given case.
