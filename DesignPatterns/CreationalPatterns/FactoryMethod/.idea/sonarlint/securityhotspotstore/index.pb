@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-F
-untitled/src/Main.java,2/a/2a93c5fcc674d7a9737121673cddd3b3478fd3e7
 Y
 )WithoutFactoryMethodPattern/src/Main.java,c/6/c6d3a92d19d063a2b93ef4808a6f49821fba6f8a
 V
